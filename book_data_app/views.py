@@ -50,7 +50,16 @@ def BookDetailAPI(request, isbn):
         querySet.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
     
+    """
+    serilazer  is complx data such as query set  and model instance to convert python datatype to easyer to render in json and other content type.
+   
+   data fatch  konsi app use hogi GET API use thai
+    GET :- model maa thi screen ma show thai data ko read karne ke liye 
+    POST:- data post karne 
     
+    serilazer is    complex data such as query set and model instance to convert python 
     
-
-
+  
+    
+    """
+   
